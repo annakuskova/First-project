@@ -1,3 +1,5 @@
-r = int(input('введите радиус:\n'))
-s = 3.14 * r ** 2
+import math
+
+r = int(input('Введите радиус:\n'))
+s = math.pi * r ** 2
 print(s)
